@@ -1,5 +1,11 @@
-money =
-if money > 3800:
-    print("택시 타자!")
+age = 65
+if age < 12:
+    print("어린이 입니다.")
+elif age < 20:
+    print("청소년 입니다.")
+elif age < 65:
+    print("성인 입니다.")
 else:
-    print("걸어 가자...")
+    print("무료로 이용하세요!")
+
+
