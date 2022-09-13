@@ -1,9 +1,5 @@
-people = [
-    {'name': 'bob', 'age': 20, 'score':{'math':90,'science':70}},
-    {'name': 'carry', 'age': 38, 'score':{'math':40,'science':72}},
-    {'name': 'smith', 'age': 28, 'score':{'math':80,'science':90}},
-    {'name': 'john', 'age': 34, 'score':{'math':75,'science':100}}
-]
-#smith의 science 점수를  출력해보세요.
-result = people[2]["score"]['science']
-print(result)
+money =
+if money > 3800:
+    print("택시 타자!")
+else:
+    print("걸어 가자...")
