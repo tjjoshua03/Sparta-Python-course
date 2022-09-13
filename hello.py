@@ -1,11 +1,17 @@
-age = 65
-if age < 12:
-    print("어린이 입니다.")
-elif age < 20:
-    print("청소년 입니다.")
-elif age < 65:
-    print("성인 입니다.")
-else:
-    print("무료로 이용하세요!")
+people = [
+    {'name': 'bob', 'age': 20},
+    {'name': 'carry', 'age': 38},
+    {'name': 'john', 'age': 7},
+    {'name': 'smith', 'age': 17},
+    {'name': 'ben', 'age': 27},
+    {'name': 'bobby', 'age': 57},
+    {'name': 'red', 'age': 32},
+    {'name': 'queen', 'age': 25}
+]
 
-
+for i, person in enumerate (people):
+    name = person['name']
+    age = person['age']
+    print(i, name, age)
+    if i > 2:
+        break
